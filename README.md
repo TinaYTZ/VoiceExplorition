@@ -1,2 +1,2 @@
-# VoiceExplorition
+# VMM
 HackMerced
