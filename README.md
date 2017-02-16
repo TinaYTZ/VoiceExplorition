@@ -1,7 +1,8 @@
 # Voice Control Explorition
   2017 HackMerced Submission
 
-Deployed on http://yutingzhang.net/
+<h3>Deployed on http://yutingzhang.net/</h3>
+
 <ul>
 <li>
 Tetris Game with voice control and different game modes
@@ -13,8 +14,11 @@ Note Taker
 
 
 
-Next for this project...
-working on gesture control by using kinect Carmera
-           allow multiplayer by using sock.io 
+<h3>Next for this project...</h3>
+working on: 
+<ul>
+<li>gesture control by using kinect Carmera</li>
+<li>allow multiplayer by using sock.io </li>
+</ul>
 
 
