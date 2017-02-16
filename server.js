@@ -15,6 +15,14 @@ app.get('/', function(req,res){
     res.sendFile(__dirname+'/public/index.html');
 });
 
-app.get('/game', function(req,res){
-    res.sendFile(__dirname+'/public/game.html');
+app.get('/game1', function(req,res){
+    res.sendFile(__dirname+'/public/game1.html');
+});
+
+app.get('/game2', function(req,res){
+    res.sendFile(__dirname+'/public/game2.html');
+});
+
+app.get('/noteTaker', function(req,res){
+    res.sendFile(__dirname+'/public/noteTaker.html');
 });
