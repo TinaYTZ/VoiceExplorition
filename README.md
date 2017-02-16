@@ -11,3 +11,10 @@ Note Taker
 </li>
 </ul>
 
+
+
+Next for this project...
+working on gesture control by using kinect Carmera
+           allow multiplayer by using sock.io 
+
+
