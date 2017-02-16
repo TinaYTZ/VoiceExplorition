@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://getbootstrap.com/examples/justified-nav/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="public/bootstrap/icon.png">
+
+    <title>Tetris Game 1.0</title>
+   <link rel="stylesheet" href="public/blockrain.css">
+    <!-- Bootstrap core CSS -->
+    <link href="public/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="public/bootstrap/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="public/bootstrap/justified-nav.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="public/bootstrap/ie-emulation-modes-warning.js"></script><style type="text/css">
+:root .carbonad,
+:root #carbonads-container,
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{ display: none !important; }</style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <body>
+
+    <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <nav>
+          <ul class="nav nav-justified">
+            <li ><a href="/">Home</a></li>
+            <li  class="active"><a href="/game2">Projects</a></li>
+            <li><a href="https://github.com/TinaYTZ/VoiceExplorition">Github</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div
+    <div id="audio"></div>
+    <div style="padding-left:37%; padding-top:30px">
+    <div class="game" style="text-align:center;width:350px; height:650px;"></div>
+      <div class="blockrain-game-over">
+        <div class="blockrain-game-over-msg">
+          Game Over
+        </div>
+        <a class="blockrain-btn blockrain-game-over-btn">
+          Play Again
+        </a>
+      </div>
+</div >
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/speechkitt.min.js"></script>
+    <script src="public/js/src/blockrain.jquery.libs.js"></script>
+    <script src="public/js/src/blockrain.jquery.src.js"></script>
+    <script src="public/js/src/blockrain.jquery.themes.js"></script>
+    <script>
+         $('.blockrain-game-over').hide();
+         $('.game').blockrain();
+      //   if (annyang) {
+      //     annyang.addCallback('result', function(phrases){
+      //
+      //       console.log(phrases[0]);
+      //       var element = $('<div>'+phrases[0]+'</div>');
+      //       $('div.text').append(element);
+      //       if (phrases[0]) {
+      //         switch(phrases[0]) {
+      //           case 'left': /*a*/    moveLeft(true); break;
+      //           case 'right': /*d*/    moveRight(true); break;
+      //           case 'drop': /*s*/    drop(true); break;
+      //           case 'rotate': /*w*/    game._board.cur.rotate('right'); break;
+      //         }
+      //       }
+      //     });
+      //     annyang.addCommands({
+      //       'hello': function() { console.log('Hello world!'); }
+      //     });
+      //
+      //
+      //     SpeechKITT.annyang();
+      //
+      //     // Define a stylesheet for KITT to use
+      //     SpeechKITT.setStylesheet('https://cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/themes/flat.css');
+      //
+      //     // Render KITT's interface
+      //     SpeechKITT.vroom();
+      //
+      // }
+
+    </script>
+  </body>
+</html>
